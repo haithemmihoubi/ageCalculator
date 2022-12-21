@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#03A9F4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/calculate_your_age"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="413dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/age"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="135dp"
+        android:elevation="10sp"
+        tools:layout_editor_absoluteY="413dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/in_minutes"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:shadowRadius="@integer/material_motion_duration_long_1"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="413dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_margin="16dp"
+        android:textColor="#2196F3"
+        android:backgroundTint="@color/white"
+        android:text="@string/calculate" />
+    <TextView
+        android:id="@+id/selectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/selcted_date"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:shadowRadius="@integer/material_motion_duration_long_1"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="413dp" />
+
+</LinearLayout>
